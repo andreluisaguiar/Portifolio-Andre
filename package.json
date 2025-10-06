@@ -1,0 +1,29 @@
+{
+  "name": "portifolio-andre",
+  "version": "1.0.0",
+  "description": "📂 Backend Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"npm --prefix client run dev\"",
+    "server": "node server/index.js",
+    "build": "npm --prefix client run build",
+    "preview": "npm --prefix client run preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreluisaguiar/Portifolio-Andre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreluisaguiar/Portifolio-Andre/issues"
+  },
+  "homepage": "https://github.com/andreluisaguiar/Portifolio-Andre#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
